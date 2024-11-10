@@ -1,10 +1,11 @@
 /*
 TC:O(2^N) SC: O(N)
 
-int W = 10; // Weight of knapsack
-    Item arr[] = {{2, 40}, {3.14, 50}, {1.98, 100},
-                {5, 95}, {3, 30}};
-
+    W:12
+    P  30 28 20 24
+    w   5  7  4  2
+*/
+/*
 #include <bits/stdc++.h>
 using namespace std;
 
