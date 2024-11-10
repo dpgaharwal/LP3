@@ -1,4 +1,7 @@
 /* TC: NlogN +N SC:O(1)*/
+/*int n = 3, weight = 50;
+   Item arr[n] = { {100,20},{60,10},{120,30} };
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
