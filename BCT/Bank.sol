@@ -3,11 +3,12 @@ pragma solidity ^0.8.0;
 
 contract Bank {
     address public accholder;
-    uint256 public balance; // public getter for balance
 
     // Event declarations
     event Deposited(address indexed accountHolder, uint256 amount);
     event Withdrawn(address indexed accountHolder, uint256 amount);
+
+    uint256 public balance;
 
     // Constructor to set the account holder
     constructor() {
